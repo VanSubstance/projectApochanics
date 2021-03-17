@@ -15,11 +15,11 @@ E:/projectApochanics/Apochanics
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-6311
+9841
 Successfully changed project path to: E:/projectApochanics/Apochanics
 E:/projectApochanics/Apochanics
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path D:/Program Files/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,22 +35,22 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001304 seconds.
+Registered in 0.001224 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.933 seconds
+- Completed reload, in  1.830 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000953 seconds.
+Registered in 0.000795 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
@@ -59,33 +59,886 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.800 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.5 MB.
 System memory in use after: 58.5 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1533.
-Total: 1.713200 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.453400 ms  DeleteObjects: 0.056400 ms)
+Total: 1.734200 ms (FindLiveObjects: 0.225200 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.413800 ms  DeleteObjects: 0.060700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(a255ced159172c64299a1f7b99034474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a255ced159172c64299a1f7b99034474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814e5c10aa0af2fd3f733b5e6c518d9f') in 0.009000 seconds
-  Import took 0.023533 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.023141 seconds
+  Import took 0.025061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1071.261804 seconds.
+  path: Assets/Cartoon_Texture_Pack
+  artifactKey: Guid(78bb0ce97cd904447b5dda8c22fa820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack using Guid(78bb0ce97cd904447b5dda8c22fa820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07662873a21281c99d5427e49923d064') in 0.007822 seconds
+  Import took 0.010337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.796317 seconds.
+  path: Assets/Character
+  artifactKey: Guid(90cd9408d45960f41b61df08dcb89169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character using Guid(90cd9408d45960f41b61df08dcb89169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6749708a1f8de30aea28a579693fe11b') in 0.006289 seconds
+  Import took 0.008148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.244316 seconds.
+  path: Assets/Character/MainChar
+  artifactKey: Guid(91cbf5e49ac6bbb47bf20498ba43865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/MainChar using Guid(91cbf5e49ac6bbb47bf20498ba43865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c9f5e9fbc8c506a9b148178fc0741d') in 0.006858 seconds
+  Import took 0.008788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.907289 seconds.
+  path: Assets/Character/MainChar/ex.png
+  artifactKey: Guid(f1a5d66436005c1449f2446ca0482f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/MainChar/ex.png using Guid(f1a5d66436005c1449f2446ca0482f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368be1fed0c70c04f91d5e5af4256c34') in 0.173183 seconds
+  Import took 0.175275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.590248 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path.mat
+  artifactKey: Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path.mat using Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30eb3d426f886583b40682eb3107a4') in 0.424186 seconds
+  Import took 0.426762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_A.mat
+  artifactKey: Guid(e5c75e771ad5773489360ae2b93d803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_A.mat using Guid(e5c75e771ad5773489360ae2b93d803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc868f6d90eff2c26a6f96de15ee5d1') in 0.035454 seconds
+  Import took 0.038266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_B.mat
+  artifactKey: Guid(1840c20d50626ce4ab8618ff839493c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_B.mat using Guid(1840c20d50626ce4ab8618ff839493c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0cfba34507de768b99f89ae302115b') in 0.032387 seconds
+  Import took 0.034946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Leaves_B.mat
+  artifactKey: Guid(a87ac08e690bb8f4eab5eb0a60502961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Leaves_B.mat using Guid(a87ac08e690bb8f4eab5eb0a60502961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2a9cd79eff969adf52a5228cb95711') in 0.032887 seconds
+  Import took 0.035444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_A.mat
+  artifactKey: Guid(f9a94780aa94b7c4985400ab0bedcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_A.mat using Guid(f9a94780aa94b7c4985400ab0bedcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1e219d95f799837ad844395f64e526') in 0.030294 seconds
+  Import took 0.033109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_B.mat
+  artifactKey: Guid(ba2226aa273afb94eb9a2b21f04369a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_B.mat using Guid(ba2226aa273afb94eb9a2b21f04369a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f476b1be8aca5480447385085f27680a') in 0.033919 seconds
+  Import took 0.036407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat
+  artifactKey: Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat using Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf53cf555d98d806ec2dbe0c59526ea') in 0.030397 seconds
+  Import took 0.032701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_B.mat
+  artifactKey: Guid(ba2226aa273afb94eb9a2b21f04369a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_B.mat using Guid(ba2226aa273afb94eb9a2b21f04369a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f476b1be8aca5480447385085f27680a') in 0.028951 seconds
+  Import took 0.031297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_Base.mat
+  artifactKey: Guid(177c17ceb9afca44bb884a1a8a00169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_Base.mat using Guid(177c17ceb9afca44bb884a1a8a00169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c50154c69fbdcc6d29ec91bdea49f25') in 0.029786 seconds
+  Import took 0.031980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Base_A.mat
+  artifactKey: Guid(2f4f17c51d0df0b4f8b1c94b6cc9a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Base_A.mat using Guid(2f4f17c51d0df0b4f8b1c94b6cc9a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dd17849d915500836bd5bc8e663c80') in 0.030606 seconds
+  Import took 0.032865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Base_B.mat
+  artifactKey: Guid(78a1f99ebf53f0e499adaea8bea793c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Base_B.mat using Guid(78a1f99ebf53f0e499adaea8bea793c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938358546b8bc44063b49dc92ac7c6d3') in 0.028923 seconds
+  Import took 0.031236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerRed_A.mat
+  artifactKey: Guid(523650b0269e8e64897a30f697233163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerRed_A.mat using Guid(523650b0269e8e64897a30f697233163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dcb4fdb64173d4a4a6dd7d588d5d23') in 0.032932 seconds
+  Import took 0.035380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Base_C.mat
+  artifactKey: Guid(e64c3036389ea2c45b7120379f426518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Base_C.mat using Guid(e64c3036389ea2c45b7120379f426518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05f7e62a045060a54fdc6d69c0eb15e') in 0.031195 seconds
+  Import took 0.033668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_C.mat
+  artifactKey: Guid(19daeccbc664d8141990dd03570ee008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_C.mat using Guid(19daeccbc664d8141990dd03570ee008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe08b6233062773054352551ddcafc0') in 0.030646 seconds
+  Import took 0.033139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerRed_B.mat
+  artifactKey: Guid(4eab6b53002d5de45b5530e6eb17d953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerRed_B.mat using Guid(4eab6b53002d5de45b5530e6eb17d953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d0b0b1a3756a0d1eb52065f57620ea') in 0.029905 seconds
+  Import took 0.032545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Leaves_A.mat
+  artifactKey: Guid(f009355b42a5ee54d9d51a286520d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Materials/Grass_Dense_Tint_02_Leaves_A.mat using Guid(f009355b42a5ee54d9d51a286520d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da885da5b2dbc0767716bc7677f791b8') in 0.028793 seconds
+  Import took 0.031085 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000270 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016640421bf54ce873cbc7b610fdb87c') in 0.014564 seconds
-  Import took 0.022060 seconds .
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_B.mat
+  artifactKey: Guid(7cdafb159eb941a45ac8fb89a05295a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_B.mat using Guid(7cdafb159eb941a45ac8fb89a05295a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b649dbe55921482d9ab3951bfaaf94d6') in 0.028263 seconds
+  Import took 0.030650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_A.mat
+  artifactKey: Guid(54a6e50b0e8a8e44bb5de3ca36e3feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_A.mat using Guid(54a6e50b0e8a8e44bb5de3ca36e3feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de21584761262169ee812e0a8cb22306') in 0.033032 seconds
+  Import took 0.035431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_B.mat
+  artifactKey: Guid(0fd41b82b4608c84aa03280b40065be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_B.mat using Guid(0fd41b82b4608c84aa03280b40065be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c1db4da619f29330725d148c3fd79') in 0.030053 seconds
+  Import took 0.032317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000903 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_B.mat
+  artifactKey: Guid(0fd41b82b4608c84aa03280b40065be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_B.mat using Guid(0fd41b82b4608c84aa03280b40065be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c1db4da619f29330725d148c3fd79') in 0.025868 seconds
+  Import took 0.028306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.197671 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png
+  artifactKey: Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png using Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4780a59fe2fdf9becbd99ee9fe029560') in 0.020817 seconds
+  Import took 0.022916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Basecolor.png
+  artifactKey: Guid(e65e8c6f286469944a22f2777d8e870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Basecolor.png using Guid(e65e8c6f286469944a22f2777d8e870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a491c2a2ea619d519c2528384cbeb2d8') in 0.020374 seconds
+  Import took 0.022804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Height.png
+  artifactKey: Guid(1acd72c6baa7f814094ccf3696cab74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Height.png using Guid(1acd72c6baa7f814094ccf3696cab74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98fb7b3924b3b4d2543a4b1d96d8629') in 0.019248 seconds
+  Import took 0.021718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Basecolor.png
+  artifactKey: Guid(c2e975e8a074dff45aee75e580a54344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Basecolor.png using Guid(c2e975e8a074dff45aee75e580a54344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e03cdf4dfd29cda230f1a4abf78374') in 0.018297 seconds
+  Import took 0.020061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Height.png
+  artifactKey: Guid(97df09d6b5a195f438ae4c5dba98341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Height.png using Guid(97df09d6b5a195f438ae4c5dba98341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8128633badc5ae35b8fd2dc7897879') in 0.017360 seconds
+  Import took 0.019339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Normal.png
+  artifactKey: Guid(8b6ec8cd3adbc7a45a52309309dff911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Normal.png using Guid(8b6ec8cd3adbc7a45a52309309dff911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8ef6436e2b0881ba90bcbc5559f03b') in 0.027755 seconds
+  Import took 0.030268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_B.png
+  artifactKey: Guid(1acff9429044bf4469ddf77481156ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_B.png using Guid(1acff9429044bf4469ddf77481156ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a02c98f0b4d2ea31e24ff0d4519a22') in 0.019511 seconds
+  Import took 0.021673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png
+  artifactKey: Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png using Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4780a59fe2fdf9becbd99ee9fe029560') in 0.014468 seconds
+  Import took 0.016981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_AO.png
+  artifactKey: Guid(438719456ebb7dc44b22000c4571a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_AO.png using Guid(438719456ebb7dc44b22000c4571a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48284b4c8c5583762130ede1e5b91f2b') in 0.018575 seconds
+  Import took 0.020760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_AO.png
+  artifactKey: Guid(613465bcd7292c04e9e22cb9c2b62711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_AO.png using Guid(613465bcd7292c04e9e22cb9c2b62711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e8546952afd040b0868a70b0212e6a') in 0.019901 seconds
+  Import took 0.022079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png
+  artifactKey: Guid(8e04de8547435554b8c484ffb2af8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png using Guid(8e04de8547435554b8c484ffb2af8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5221c4fb1acb6ef11f293cb26c5326bd') in 0.015789 seconds
+  Import took 0.017926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Normal.png
+  artifactKey: Guid(f857da3d8b701944baaf2af770407084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Normal.png using Guid(f857da3d8b701944baaf2af770407084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8630cec918554509b5a6b31332bc5c') in 0.022865 seconds
+  Import took 0.024937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Normal.png
+  artifactKey: Guid(48c3f9bf0c6c95b4e8a00c6b9a8162be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Normal.png using Guid(48c3f9bf0c6c95b4e8a00c6b9a8162be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabf39066f0e19ef0acf9b667fcb8b9e') in 0.023712 seconds
+  Import took 0.029402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_A.png
+  artifactKey: Guid(819311b7a66a8f740b104cf9f9ffadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_A.png using Guid(819311b7a66a8f740b104cf9f9ffadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe78d767e74d8364aebbb4a6c53929db') in 0.029073 seconds
+  Import took 0.035147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Metallic.png
+  artifactKey: Guid(2391acbc368b2784f8b045f39a947221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Metallic.png using Guid(2391acbc368b2784f8b045f39a947221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d840b0cc2254cb7ca1ad25ba8cc442c') in 0.015201 seconds
+  Import took 0.017281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png
+  artifactKey: Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png using Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b54792cf17470c474ff23d4782524f4') in 0.019989 seconds
+  Import took 0.022304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_C.png
+  artifactKey: Guid(84a0082a671cb3642819cc69b89b9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_C.png using Guid(84a0082a671cb3642819cc69b89b9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b42e66733babcf75e8af81c513f5176') in 0.020592 seconds
+  Import took 0.023498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001102 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Metallic.png
+  artifactKey: Guid(ae87662110a99a64d80a0cb0171f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Metallic.png using Guid(ae87662110a99a64d80a0cb0171f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f5170baa3b6b2c8b4889fcc4f78c24') in 0.014837 seconds
+  Import took 0.017186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.601131 seconds.
+  path: Assets/Cartoon_Texture_Pack/_MaterialLibrary
+  artifactKey: Guid(2b8bd8c8da4456646b1cb81a54a6ffdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/_MaterialLibrary using Guid(2b8bd8c8da4456646b1cb81a54a6ffdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ce7edd064d210a6bcc5ab57818c0e3') in 0.007854 seconds
+  Import took 0.010291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081214 seconds.
+  path: Assets/Cartoon_Texture_Pack/_MaterialLibrary/Material_Library_Reference.png
+  artifactKey: Guid(3a6463e0803a8e845b99b863dde00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/_MaterialLibrary/Material_Library_Reference.png using Guid(3a6463e0803a8e845b99b863dde00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d59fa738d8d574a9937a0611980520') in 0.018577 seconds
+  Import took 0.020556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Cartoon_Texture_Pack/_MaterialLibrary/Presentation_Sphere.FBX
+  artifactKey: Guid(794f0e9f14d08e0429b8fcc936e4e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/_MaterialLibrary/Presentation_Sphere.FBX using Guid(794f0e9f14d08e0429b8fcc936e4e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabe03140cf453fcf8cb35d2b42998db') in 0.507314 seconds
+  Import took 0.509081 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 62.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 1.614900 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.361800 ms  DeleteObjects: 0.070500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.509588 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic
+  artifactKey: Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic using Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188397353bb35d9024edf9a829216aaa') in 0.009143 seconds
+  Import took 0.011214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.424071 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation
+  artifactKey: Guid(c89e3d2b43fc205448e78ae1dcd61d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation using Guid(c89e3d2b43fc205448e78ae1dcd61d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f3b5080fb1def24736f877b8df4704') in 0.007146 seconds
+  Import took 0.009125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.254877 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene
+  artifactKey: Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene using Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa7b49e02e915b98e0ea90a4c7e8ea4') in 0.007353 seconds
+  Import took 0.009288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.823558 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity
+  artifactKey: Guid(d9a9fd5182a4025429c97a869864056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity using Guid(d9a9fd5182a4025429c97a869864056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ac45fa359c18366ef0f4cc8356d088') in 0.013554 seconds
+  Import took 0.015782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.713351 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity
+  artifactKey: Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity using Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b042fac0c3f18f372ee89e25c367aa41') in 0.007517 seconds
+  Import took 0.009489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000997 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity
+  artifactKey: Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity using Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b042fac0c3f18f372ee89e25c367aa41') in 0.003089 seconds
+  Import took 0.005200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.247475 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Rune Glow.mat
+  artifactKey: Guid(61b89fe75af132249ba5700ee0334a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Rune Glow.mat using Guid(61b89fe75af132249ba5700ee0334a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee51ced816d80fd2d6f8778041068ba') in 0.070258 seconds
+  Import took 0.072924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Sprite.mat
+  artifactKey: Guid(a9f84881abde25b48904c0ff67bca145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Sprite.mat using Guid(a9f84881abde25b48904c0ff67bca145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7132c0a48c59c888f4d5679a815090f8') in 0.019386 seconds
+  Import took 0.021462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat
+  artifactKey: Guid(6f3f1f0060a4d6a4980ea3283643fbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat using Guid(6f3f1f0060a4d6a4980ea3283643fbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b0e332d726706bd40b58a50c0edb6d') in 0.020882 seconds
+  Import took 0.023545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.519680 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Preset/Tags & Layers - Pixel Art Top Down - Basic.preset
+  artifactKey: Guid(9c251c5594f708844890276e5d8b709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Preset/Tags & Layers - Pixel Art Top Down - Basic.preset using Guid(9c251c5594f708844890276e5d8b709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6dc2e24bf772b4fe2cafa268df3f46') in 0.018287 seconds
+  Import took 0.020409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.098926 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png
+  artifactKey: Guid(c3a40e1c46727b94e959990527f8e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(c3a40e1c46727b94e959990527f8e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18e30635539f177cec91001c1e9e7ce') in 0.091292 seconds
+  Import took 0.093770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png
+  artifactKey: Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3b387be33a6e09a1ff7906a8924045') in 0.063962 seconds
+  Import took 0.066145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d412986094d2b97589df337983fdc1') in 0.096987 seconds
+  Import took 0.099268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(a07735877a3bd644094331b137b71878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(a07735877a3bd644094331b137b71878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcbb872919b7c8b57066720b44bfa94') in 0.085865 seconds
+  Import took 0.088269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
+  artifactKey: Guid(9f8f114589864b6489859a58fbb6baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(9f8f114589864b6489859a58fbb6baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fd14e5ff33a8d0834214a660714ae6') in 0.105988 seconds
+  Import took 0.108715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
+  artifactKey: Guid(8501e10b1eafde34586080ba342fdc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png using Guid(8501e10b1eafde34586080ba342fdc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48812b4cd640ababa596a99ca999706e') in 0.050308 seconds
+  Import took 0.052820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png
+  artifactKey: Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4732ca37c7f0fd3e0c0ca21da45aa946') in 0.032907 seconds
+  Import took 0.035080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png
+  artifactKey: Guid(ed7554aeefd5da44a9fe1ee9b93afe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png using Guid(ed7554aeefd5da44a9fe1ee9b93afe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbe1aa5c859ffc3ea2a51787c59dbaf') in 0.110684 seconds
+  Import took 0.113380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png
+  artifactKey: Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4732ca37c7f0fd3e0c0ca21da45aa946') in 0.014793 seconds
+  Import took 0.016945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png
+  artifactKey: Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a253b15bf28264a37633dcc311f7d198') in 0.128144 seconds
+  Import took 0.130673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.491140 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass.prefab
+  artifactKey: Guid(02a081c3d25f8e54396b0c278f77e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass.prefab using Guid(02a081c3d25f8e54396b0c278f77e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2664dc19ac77c79870e66f4ab2dc395') in 0.017396 seconds
+  Import took 0.019620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall.prefab
+  artifactKey: Guid(8d8700121f1eb2c4abda7e8a3dafab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall.prefab using Guid(8d8700121f1eb2c4abda7e8a3dafab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ef7bd347e816595fa8366fc49c5dbc') in 0.008051 seconds
+  Import took 0.009839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground.prefab
+  artifactKey: Guid(d4e83863d09313942bd8054738fe5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground.prefab using Guid(d4e83863d09313942bd8054738fe5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcb0680eebebbf753a9e99f2acd880a') in 0.008622 seconds
+  Import took 0.010662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.097597 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass
+  artifactKey: Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass using Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae5343035194c1dc4a59fe10b6d70a7') in 0.003003 seconds
+  Import took 0.004927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096362 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 0.asset
+  artifactKey: Guid(7b6e368fc0ee90b4ca09e0f71344589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 0.asset using Guid(7b6e368fc0ee90b4ca09e0f71344589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7c7981eee0cdfd4ccc2d7c609285f4') in 0.064159 seconds
+  Import took 0.066187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 9.asset
+  artifactKey: Guid(1d9b2716edff8d7418583a4c52cba7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 9.asset using Guid(1d9b2716edff8d7418583a4c52cba7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396a6f55dcd47c08ca0ec05e44724d19') in 0.014643 seconds
+  Import took 0.016584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 10.asset
+  artifactKey: Guid(76a0eb89921157e448ea699f93e95564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 10.asset using Guid(76a0eb89921157e448ea699f93e95564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ef35d7a709bc28193e952909acf5b0') in 0.017323 seconds
+  Import took 0.019730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 8.asset
+  artifactKey: Guid(5451d01092d6a0947a1059da45c09ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 8.asset using Guid(5451d01092d6a0947a1059da45c09ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a00ec60777be91a39cca456f028577') in 0.015724 seconds
+  Import took 0.017864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 4.asset
+  artifactKey: Guid(fedab419fdbdeea488795e51c83727c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 4.asset using Guid(fedab419fdbdeea488795e51c83727c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e3da3ae3edf54f24db74b26b06126f') in 0.016884 seconds
+  Import took 0.019525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 15.asset
+  artifactKey: Guid(cd739c4b4eb31934494017ea1d34324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 15.asset using Guid(cd739c4b4eb31934494017ea1d34324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84799708ad7d2fe03484bc659e5a0379') in 0.018546 seconds
+  Import took 0.020798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 2.asset
+  artifactKey: Guid(6da925407638afc4db4e37eb2ec98c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 2.asset using Guid(6da925407638afc4db4e37eb2ec98c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1dd2f3e240b5dcd5e428b87c0f7174') in 0.015989 seconds
+  Import took 0.018302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 3.asset
+  artifactKey: Guid(6a5be8683b2bb5c4cafdd9a8407e5654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 3.asset using Guid(6a5be8683b2bb5c4cafdd9a8407e5654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c7225406222c623840ec96de1745ab') in 0.016007 seconds
+  Import took 0.018173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 7.asset
+  artifactKey: Guid(cf6b59b7c1dad88438263b3160222715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 7.asset using Guid(cf6b59b7c1dad88438263b3160222715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d5b5c7c0caf824ba8a1a3121e9db73') in 0.016496 seconds
+  Import took 0.018635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 11.asset
+  artifactKey: Guid(aa14e442c407b164a9e0bba1fd35004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 11.asset using Guid(aa14e442c407b164a9e0bba1fd35004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70249e932d2f9d93d4200e3f1a22fee') in 0.016374 seconds
+  Import took 0.018409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 12.asset
+  artifactKey: Guid(f332210fa22ba8549b6ac4d19975e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 12.asset using Guid(f332210fa22ba8549b6ac4d19975e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23073fccd181f4ed9f7f1aab2963868d') in 0.015672 seconds
+  Import took 0.017867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 1.asset
+  artifactKey: Guid(ae68d965a4218a94ca2134f0ae2007c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 1.asset using Guid(ae68d965a4218a94ca2134f0ae2007c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e17e2c71f43597cc0b5b7e29fe99d82') in 0.016640 seconds
+  Import took 0.019097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 13.asset
+  artifactKey: Guid(8143e435c2ff5f342951e4e9991c11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 13.asset using Guid(8143e435c2ff5f342951e4e9991c11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf7ae3cae54b22466d9b4f93155d53c') in 0.017288 seconds
+  Import took 0.019605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 14.asset
+  artifactKey: Guid(f705d9780fd6a6847a33cc62a5c4b9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 14.asset using Guid(f705d9780fd6a6847a33cc62a5c4b9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385c262af725cb33e69369278d7d72b7') in 0.016079 seconds
+  Import took 0.018444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 5.asset
+  artifactKey: Guid(54b6893f2afe6354ebdccde3f53a6a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 5.asset using Guid(54b6893f2afe6354ebdccde3f53a6a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c075e0ee4d5b9dff3129d70c0e518a') in 0.015840 seconds
+  Import took 0.017959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 6.asset
+  artifactKey: Guid(463040bb33823754e9e159a83e20321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 6.asset using Guid(463040bb33823754e9e159a83e20321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7651ac95c0d07828c3f43e8119b1c32') in 0.015875 seconds
+  Import took 0.018189 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.6 MB.
+System memory in use after: 63.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 1.629700 ms (FindLiveObjects: 0.192700 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.364100 ms  DeleteObjects: 0.039900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.364068 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player
+  artifactKey: Guid(cfa9631201d3f8048a776a0c31d57a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player using Guid(cfa9631201d3f8048a776a0c31d57a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fffd320e557e6e08ea489daad984ac') in 0.010681 seconds
+  Import took 0.012791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036259 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player/PF Player.prefab
+  artifactKey: Guid(ef67ba864d1ecc042b5f4cf48455c0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player/PF Player.prefab using Guid(ef67ba864d1ecc042b5f4cf48455c0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c4aaefcff6d1fb03571f7e09243301') in 0.112846 seconds
+  Import took 0.115123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.428521 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim
+  artifactKey: Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim using Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c5d92c4a051bed0732e64189372852') in 0.011404 seconds
+  Import took 0.013484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055399 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim
+  artifactKey: Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim using Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c5d92c4a051bed0732e64189372852') in 0.003526 seconds
+  Import took 0.005609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.358676 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim
+  artifactKey: Guid(7c29c1735a3172c4f9b06cfaf4237e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim using Guid(7c29c1735a3172c4f9b06cfaf4237e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4b13d981967104a4f91ebb181c0915') in 0.007689 seconds
+  Import took 0.009736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572915 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim
+  artifactKey: Guid(1c0be051fbf975d4d9683fd3a6e5aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim using Guid(1c0be051fbf975d4d9683fd3a6e5aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c16b59018833374b68caea3f84c6a08') in 0.007265 seconds
+  Import took 0.009309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.239427 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim
+  artifactKey: Guid(3efcd6bf71902b94bb400e73d4f7140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim using Guid(3efcd6bf71902b94bb400e73d4f7140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9175d2a6dfd6e3f490f6de1eff45c57') in 0.007227 seconds
+  Import took 0.009269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925937 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim
+  artifactKey: Guid(318841139f2ea6c468581225baff9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim using Guid(318841139f2ea6c468581225baff9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1db265bcd24b16a353a034475b08454') in 0.008094 seconds
+  Import took 0.010140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.470183 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim
+  artifactKey: Guid(c10ec0603bf61454d98ee6718e2130e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim using Guid(c10ec0603bf61454d98ee6718e2130e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d3b631b32e820f4e1cff383b681146') in 0.008296 seconds
+  Import took 0.010534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.596202 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller
+  artifactKey: Guid(eb1ae3e395b532e4d8dbc08a412e4a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller using Guid(eb1ae3e395b532e4d8dbc08a412e4a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063b430047753d5b95e0aa477e42d36f') in 0.013244 seconds
+  Import took 0.015323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.991945 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow Mask.shader
+  artifactKey: Guid(1ecad76f5afc08c4baa59e2c3946bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow Mask.shader using Guid(1ecad76f5afc08c4baa59e2c3946bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b257386a3bcd295b90f127e07054a11a') in 0.011382 seconds
+  Import took 0.013359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027971 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow Mask.shader
+  artifactKey: Guid(1ecad76f5afc08c4baa59e2c3946bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow Mask.shader using Guid(1ecad76f5afc08c4baa59e2c3946bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b257386a3bcd295b90f127e07054a11a') in 0.003160 seconds
+  Import took 0.005274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.867799 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow.shader
+  artifactKey: Guid(6550f6ce69d62b841b4c4f6818d8e73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow.shader using Guid(6550f6ce69d62b841b4c4f6818d8e73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a1f8e3dc3eed9014ed8b732018ae24') in 0.006995 seconds
+  Import took 0.009016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.930890 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs
+  artifactKey: Guid(13d0e62721e731a47916713e45e4ef50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs using Guid(13d0e62721e731a47916713e45e4ef50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8355aa1e53620537bed9659852a1ba40') in 0.137056 seconds
+  Import took 0.139116 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.7 MB.
+System memory in use after: 63.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 1.693000 ms (FindLiveObjects: 0.233900 ms CreateObjectMapping: 0.047000 ms MarkObjects: 1.369200 ms  DeleteObjects: 0.041800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
